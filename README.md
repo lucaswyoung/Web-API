@@ -21,7 +21,9 @@ CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4%2b4
 Multiplication, division and subtraction:
 
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4*4
+
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4/4
+
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4-4
 
 # /Results
