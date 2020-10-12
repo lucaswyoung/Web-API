@@ -29,9 +29,9 @@ Output:
 API usage is explained below:
 
 Addition: (must use '%2b' instead of a '+' sign when forming the request)
-
+```
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4%2b4
-
+```
 Multiplication, division and subtraction:
 ```
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4*4
@@ -47,3 +47,5 @@ You can either navigate to the following URL or request programatically using cu
 CURL -X GET https://sezzlecalcapp.herokuapp.com/results
 ````
 Using a browser, navigate to: https://sezzlecalcapp.herokuapp.com/results
+
+*Note:* Refreshing the results endpoint requires a browser refresh at this time.
