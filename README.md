@@ -6,15 +6,29 @@ This project repository is a web based calculator API that leverages Python and 
 
 This API is hosted at the following URL: https://sezzlecalcapp.herokuapp.com/results
 
-This API has to endpoints:
+This API has two endpoints:
 - /operate
 - /results
 
 # /Operate
 
-This is used to perform the calculator operations, please see the examples below:
+This is used to perform the calculator operations and return the results in JSON format following the request. 
 
-Addition: (must use '%2b' instead of a '+' sign when forming the request
+Input:
+
+CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations9*981
+
+Output:
+
+{
+  "operation": "90*891",
+  "result": 80190,
+  "updated_date": "Mon, 12 Oct 2020 16:51:20 GMT"
+}
+
+API usage is explained below:
+
+Addition: (must use '%2b' instead of a '+' sign when forming the request)
 
 CURL -X GET https://sezzlecalcapp.herokuapp.com/operate?operations4%2b4
 
@@ -32,7 +46,4 @@ You can either navigate to the following URL or request programatically using cu
 
 CURL -X GET https://sezzlecalcapp.herokuapp.com/results
 
-Using a browser, navigate to: https://sezzlecalcapp.herokuapp.com/operate?operations4*4
-
-
-
+Using a browser, navigate to: https://sezzlecalcapp.herokuapp.com/results
