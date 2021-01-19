@@ -4,7 +4,7 @@ This project repository is a web based calculator API that leverages Python and 
 
 # API usage
 
-This API is hosted at the following URL: ~~https://calcapp.herokuapp.com/results
+This API is hosted at the following URL: ~~https://calcapp.herokuapp.com/results~~
 
 This API has two endpoints:
 - /operate
@@ -16,7 +16,7 @@ This is used to perform the calculator operations and return the results in JSON
 
 Input:
 ```
-CURL -X GET ~~https://calcapp.herokuapp.com/operate?operations9*981~~
+CURL -X GET https://calcapp.herokuapp.com/operate?operations9*981
 ```
 Output:
 ```
@@ -46,6 +46,6 @@ You can either navigate to the following URL or request programatically using cu
 ```
 CURL -X GET https://calcapp.herokuapp.com/results
 ````
-Using a browser, navigate to: ~~https://calcapp.herokuapp.com/results
+Using a browser, navigate to: ~~https://calcapp.herokuapp.com/results~~
 
 *Note:* Refreshing the results endpoint requires a browser refresh at this time.
